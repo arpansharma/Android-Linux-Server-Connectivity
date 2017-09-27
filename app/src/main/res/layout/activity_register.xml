@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.arpansharma.bloodbankremastered.RequestActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Already Registered ?  Sign in."
+                android:textSize="15sp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/signIn"/>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/nameWrapperReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/signIn"
+
+                app:theme="@style/AppTheme"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapWords"
+                    android:id="@+id/nameReg"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/emailWrapperReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_below="@+id/nameWrapperReg"
+
+                app:theme="@style/AppTheme"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textEmailAddress"
+                    android:id="@+id/emailReg"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/passWrapperReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_below="@+id/emailWrapperReg"
+
+                app:theme="@style/AppTheme"
+                app:passwordToggleEnabled="true"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:password="true"
+                    android:id="@+id/passReg"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/phoneWrapperReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_below="@+id/passWrapperReg"
+
+                app:theme="@style/AppTheme"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:digits="0123456789"
+                    android:maxLength="10"
+                    android:id="@+id/phoneReg"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/dobWrapperReg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_below="@+id/phoneWrapperReg"
+                android:layout_marginBottom="10dp"
+
+                app:theme="@style/AppTheme"
+                >
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:id="@+id/dobReg"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/genderTextView"
+                android:text="Gender : "
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_below="@id/dobWrapperReg"
+                android:layout_marginLeft="2dp"/>
+            <RadioGroup
+                android:id="@+id/radioGender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@+id/genderTextView"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="-3dp">
+
+                <RadioButton
+                    android:id="@+id/male"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Male"
+                    android:textSize="18sp" />
+
+                <RadioButton
+                    android:id="@+id/female"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Female"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="30dp"/>
+
+                <RadioButton
+                    android:id="@+id/others"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Others"
+                    android:textSize="18sp"
+                    android:layout_marginLeft="30dp"/>
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/bgTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="14dp"
+                android:text="Blood Group : "
+                android:layout_below="@+id/radioGender"
+                android:layout_marginLeft="2dp"
+                android:textSize="18sp"
+                android:textColor="#000000"/>
+
+            <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bgTextView"
+                android:prompt="@string/spinner_title"
+                android:spinnerMode="dialog"
+                android:id="@+id/bloodGroup"
+                android:layout_marginLeft="-3dp"/>
+
+            <TextView
+                android:id="@+id/stTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="2dp"
+                android:text="Select State : "
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_below="@+id/bloodGroup"
+                android:layout_alignStart="@+id/bgTextView" />
+
+            <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/stTextView"
+                android:layout_marginLeft="-3dp"
+                android:id="@+id/state"/>
+
+            <TextView
+                android:id="@+id/ctTextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:layout_marginLeft="2dp"
+                android:text="Select City : "
+                android:textSize="18sp"
+                android:textColor="#000000"
+                android:layout_below="@+id/state"
+                android:layout_alignStart="@+id/bgTextView" />
+
+            <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ctTextView"
+                android:layout_marginLeft="-3dp"
+                android:id="@+id/city"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/submitReg"
+                android:layout_marginTop="10dp"
+                android:text="Register"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/city"/>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
