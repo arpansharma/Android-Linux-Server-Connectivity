@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\Arpan Sharma\.android\build-cache\0f943b033885782238a551844c0fbd475105d8d9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="F:\Android_apps\BloodBankRemastered\app\build\intermediates\pre-dexed\debug\classes_53df78b26b22dcb163d89aa65e296f7a333dd245.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Arpan Sharma\.android\build-cache\c94b68fe7b186a754c411129ae72048a44bde9a7\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="F:\Android_apps\BloodBankRemastered\app\build\intermediates\pre-dexed\debug\classes_f56ff14dfe7bac9c6760f41de95a01d14233a215.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Arpan Sharma\.android\build-cache\70c53af9712ce0a209e1f7a29fe19122d2b63071\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="F:\Android_apps\BloodBankRemastered\app\build\intermediates\pre-dexed\debug\classes_cb4f60a5644b9e9d574c51a784bf5d23525da0e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Arpan Sharma\.android\build-cache\6f6fd6ad3a91911fb418815a3aaf372e0ee97861\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="F:\Android_apps\BloodBankRemastered\app\build\intermediates\pre-dexed\debug\classes_2e2d54be539af02bfbe2a4c3a0b739b7e4780e55.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android_apps\BloodBankRemastered\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="f41ddef04baaa3b4f3fa3ae15c5fbb6a904b6f86">
+        <dex dex="F:\Android_apps\BloodBankRemastered\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_d150112db8fad6c58c423106c255c05a40af9f34\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Arpan Sharma\.android\build-cache\678280d10a64fc7b9498639076060e6f0dd22578\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="F:\Android_apps\BloodBankRemastered\app\build\intermediates\pre-dexed\debug\classes_76a67c6ba4945b72cef6e73859c4145e25beb131.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="F:\Android_apps\BloodBankRemastered\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_0f23b7deb132f355606fa88853cb2a3887d1c371.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Arpan Sharma\.android\build-cache\4da8197264f68109e46a19a09b17d8da69fb293b\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2cd4b982617e544728de0782d718a58ce1b06e3f">
+        <dex dex="F:\Android_apps\BloodBankRemastered\app\build\intermediates\pre-dexed\debug\classes_c7483e44503753fc56973e2570b7fa057d246140.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Arpan Sharma\.android\build-cache\f5b0ebdecfe94d257a95852ec1d04b508d4fc4c0\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="F:\Android_apps\BloodBankRemastered\app\build\intermediates\pre-dexed\debug\classes_96de90e194d70be2ebee2f78b874e93f99774498.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Arpan Sharma\.android\build-cache\e169266dc14004ea0611321b213c21b84e957844\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="F:\Android_apps\BloodBankRemastered\app\build\intermediates\pre-dexed\debug\classes_695a351ff5ade7dbc00db0b4a22f7b6553923f07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Arpan Sharma\.android\build-cache\b99efe97a22cb92b177a4ecdc4c7c3539c033f9f\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="F:\Android_apps\BloodBankRemastered\app\build\intermediates\pre-dexed\debug\classes_ca39aee22ce91fbb73535ca5bb9d058f0d344705.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Arpan Sharma\.android\build-cache\cfc89b36e3785dd487963dbc98cc44937b491878\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="dbfaa66636f1fadb6cff4080a3a271e97f288340">
+        <dex dex="F:\Android_apps\BloodBankRemastered\app\build\intermediates\pre-dexed\debug\classes_32fa3d0fb797a8b9e5e3143231b48ceac6ad4a38.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Arpan Sharma\.android\build-cache\8fce892d21d9ae1ba2e5c9ce6dc5780ac798bf40\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="F:\Android_apps\BloodBankRemastered\app\build\intermediates\pre-dexed\debug\classes_99c463d08c5451436625e323fa88fcfa563f44e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Arpan Sharma\.android\build-cache\6c4a917e8e2e4468671d8dea2ddd185c1d585d2c\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="F:\Android_apps\BloodBankRemastered\app\build\intermediates\pre-dexed\debug\classes_c544f168499908a8c1faaf81c75eb9d29f1a3cef.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="F:\Android_apps\BloodBankRemastered\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="F:\Android_apps\BloodBankRemastered\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_68a913c0cf596a526c21c44aff21ff44640f24d5\classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Arpan Sharma\.android\build-cache\23db89f818c5e211b006729f227ee7ead9e9ec67\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="F:\Android_apps\BloodBankRemastered\app\build\intermediates\pre-dexed\debug\classes_89de2d94d0aff8ff7028acc3289427616580486f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="F:\Android_apps\BloodBankRemastered\app\build\intermediates\pre-dexed\debug\constraint-layout-solver-1.0.2_98e5920e0f9b0e1a1b6a707f8402b4f5acf9a5db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Arpan Sharma\.android\build-cache\4998481aac6d1d6f5c18757216ce69c730422c70\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="F:\Android_apps\BloodBankRemastered\app\build\intermediates\pre-dexed\debug\classes_5847ed33fecbdeb65ecb7b6e3471e9f42a7b6bea.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Arpan Sharma\.android\build-cache\44058be37720cb4d005eb69993d5ebbaf1503b30\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="F:\Android_apps\BloodBankRemastered\app\build\intermediates\pre-dexed\debug\classes_94733db792deda9a8d5bcda54d1f3a954ee4ff5f.jar" />
+    </item>
+
+</items>
