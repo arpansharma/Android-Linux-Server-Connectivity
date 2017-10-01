@@ -30,3 +30,21 @@ Open a web browser and navigate to http://localhost/. You should see a message s
 You can check your PHP by executing any PHP file from within /var/www/. Alternatively you can execute the following command, which will make PHP run the code without the need for creating a file .
 
 ### php -r 'echo "\n\nYour PHP installation is working fine.\n\n\n";'
+
+
+# Instaling viretualenv and MySQL-python
+
+### 1. apt-get install python-pip
+
+### 2. pip install virtualenv
+
+### 3. apt-get install libmysqlclient-dev
+
+### 4. virtualenv Database_Connect
+
+### 5. source Database_Connect/bin/activate
+
+### 6. pip install MySQL-python
+
+### 7. deactivate
+
